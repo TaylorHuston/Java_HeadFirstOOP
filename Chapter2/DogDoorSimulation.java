@@ -6,8 +6,8 @@ public class DogDoorSimulation {
         DogDoor door = new DogDoor();
         Remote remote = new Remote(door);
 
-        remote.pressBurront();
+        remote.pressButton();
 
-        remote.pressBurront();
+        remote.pressButton();
     }
 }
