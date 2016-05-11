@@ -8,6 +8,5 @@ public class DogDoorSimulation {
 
         remote.pressButton();
 
-        remote.pressButton();
     }
 }
