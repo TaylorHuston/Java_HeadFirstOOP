@@ -8,5 +8,11 @@ public class DogDoorSimulation {
 
         remote.pressButton();
 
+        try {
+            Thread.currentThread().sleep(10000);
+        } catch (InterruptedException e) {
+        }
+
+        remote.pressButton();
     }
 }
