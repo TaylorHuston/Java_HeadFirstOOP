@@ -18,5 +18,9 @@ public class DogDoor {
         this.open = false;
     }
 
+    public boolean isOpen() {
+        return this.open;
+    }
+
 
 }

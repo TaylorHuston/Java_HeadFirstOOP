@@ -6,7 +6,7 @@ public class Remote {
         this.door = door;
     }
 
-    public void pressBurront() {
+    public void pressButton() {
         System.out.println("Button pressed");
         if (door.isOpen() == true) {
             door.close();
@@ -15,3 +15,4 @@ public class Remote {
         }
     }
 }
+
